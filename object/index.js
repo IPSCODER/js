@@ -246,3 +246,39 @@ let user = {
 }
 
 const {fullname:{first}} = user;
+
+
+
+// rest opertor always in last 
+function getItems(fruitList,favouriteList,...args){
+    return [...fruitList,...args,favouriteList]
+}
+// spread operator you can also in middle
+
+console.log(getItems(["a","b"],"c","d"));
+
+// 
+
+let d = {greeting : "Hey!"}
+
+let e;
+
+e = d;
+
+d.greeting = "hello"
+
+console.log(e.greeting);
+
+// whats output
+
+console.log({a:1} == {a:1});
+console.log({b:1} === {b:1});
+
+// what the output
+
+let person = {name:"lydia"};
+const member = [person]
+
+person = null
+
+console.log(member);
