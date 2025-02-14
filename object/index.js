@@ -414,6 +414,15 @@ console.log(getKeyByValue(map,"2"));
 
 // testLet()
  
- 
+ const a = {
+    name:'abc',
+    age:20
+}
+
+const b = a;
+
+b.name = "def"
+
+console.log(a)
  
 
