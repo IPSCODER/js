@@ -302,3 +302,118 @@ function getKeyByValue(object, value) {
 
 const map = {"first" : "1", "second" : "2"};
 console.log(getKeyByValue(map,"2"));
+
+
+// console.log(('b' + 'a' + + 'a' + 'a').toLowerCase());
+
+
+// 4 + true
+ 
+// [] === []
+ 
+// let a1 = a2 = [ ]
+ 
+// a1.push(1)
+ 
+// console.log(a1, a2)
+ 
+// [1, 2, 3, 4], [3, 4, 5, 6]
+ 
+// //output : [3,4]
+ 
+// let arr = [1,4,6,2,3,7,11,9,10];
+ 
+// let arr = [1,4,6,2,3,7,11,9,10];
+
+// console.log(arr.sort((a,b)=>a-b))
+ 
+// https://jsonplaceholder.typicode.com/users
+
+// let arr =[1, 2, 3, -4, -1, 4]
+// let arr2 = [];
+
+
+/////////////////////////
+
+
+// function createIncrement() {
+
+//   let count = 0;
+ 
+//   function increment() { 
+
+//     count++;
+
+//   }
+ 
+//   let message = `Count is ${count}`;
+ 
+//   function log() {
+
+//     console.log(message);
+
+//   }
+
+//   return [increment, log];
+
+// }
+ 
+// const [increment, log] = createIncrement();
+
+// increment(); 
+
+// increment(); 
+
+// increment(); 
+
+// log();
+
+////////////////////
+
+// let obj = {
+
+//   myFunction: function() {
+
+//     console.log(this);
+
+//   }
+
+// }
+
+ 
+// obj.myFunction();
+
+// let func = obj.myFunction
+
+// func();
+ 
+// //////////////
+
+// console.log(testLet)
+
+// console.log(testVar)
+
+ 
+// const testVar = () => { 
+
+// 	console.log(a); 
+
+// 	var a = 10; 
+
+// }
+ 
+// function testLet() { 
+
+// 	console.log(a); 
+
+// 	let a = 10; 
+
+// }
+ 
+// testVar()
+
+// testLet()
+ 
+ 
+ 
+
