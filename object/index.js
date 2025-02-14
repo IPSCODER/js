@@ -425,4 +425,26 @@ b.name = "def"
 
 console.log(a)
  
+/////////////////////////////
 
+const fn = () =>{
+    console.log(this.a)
+}
+
+const obj = {
+    a:5,fn
+}
+
+obj.fn()
+
+/////////////////////
+
+function fn(){
+    console.log(this.a)
+}
+
+const obj = {
+    a:5,fn
+}
+
+obj.fn()
