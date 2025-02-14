@@ -185,3 +185,20 @@ function findPairs(arr, target) {
 
 let arr = [0.1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 console.log(findPairs(arr, 8));
+
+function Rearrange(array) {
+    let positiveArr = array.filter((item) => item > 0);
+    let negativeArr = array.filter((item) => item < 0);
+    let arr = [];
+    
+    let i = 0, j = 0;
+    while (i < positiveArr.length || j < negativeArr.length) {
+        if (i < positiveArr.length) arr.push(positiveArr[i++]);  // Push positive number
+        if (j < negativeArr.length) arr.push(negativeArr[j++]);  // Push negative number
+    }
+
+    return arr;
+}
+
+let arr = [1, 2, 3, -4, -1, 4];
+console.log(Rearrange(arr)); 
