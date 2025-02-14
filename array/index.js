@@ -168,3 +168,20 @@ function rotateArray(nums,k) {
     const rotated = nums.splice(size - k,size) // 
 
 }
+
+function findPairs(arr, target) {
+    let pairs = [];
+    let seen = new Set();
+
+    for (let num of arr) {
+        let complement = target - num;
+        if (seen.has(complement)) {
+            pairs.push([num, complement]);
+        }
+        seen.add(num);
+    }
+    return pairs;
+}
+
+let arr = [0.1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+console.log(findPairs(arr, 8));
