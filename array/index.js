@@ -279,4 +279,15 @@ for (let num of numbers) {
 console.log("Even numbers:", evens);
 console.log("Odd numbers:", odds);
 
+// 1 3 2 4
+// - - - *
+// - * - *
+// - * * *
+// * * * *
 
+// 5 2 3
+// * - -
+// * - -
+// * - *
+// * * *
+// * * *
