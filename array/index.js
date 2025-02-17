@@ -263,3 +263,20 @@ for(let i = 0; i < arr.length; i++){
 } 
     console.log(as)
 output 0 
+///////////////////////////
+const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+const evens = [];
+const odds = [];
+
+for (let num of numbers) {
+    if (num % 2 === 0) {
+        evens.push(num);
+    } else {
+        odds.push(num);
+    }
+}
+
+console.log("Even numbers:", evens);
+console.log("Odd numbers:", odds);
+
+
